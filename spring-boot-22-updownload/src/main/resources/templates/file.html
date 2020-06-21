@@ -22,5 +22,10 @@
     一次选择多个文件的多文件上传：<input type="file" name="files" multiple>
     <input type="submit"/>
 </form>
+<p>4、多文件下载</p>
+<form action="/batchDownload" method="POST" enctype="multipart/form-data">
+    多文件下载：<input type="text" name="fileIds"/>
+    <input type="submit"/>
+</form>
 </body>
 </html>

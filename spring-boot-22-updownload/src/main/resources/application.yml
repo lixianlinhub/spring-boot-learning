@@ -17,9 +17,9 @@ spring:
       location: /test
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    url: jdbc:mysql://192.168.107.101:3306/lxl?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
     username: root
-    password: root
+    password: 123456
   jpa:
     # 数据库类型
     database: mysql
@@ -51,5 +51,5 @@ spring:
 
 niaobulashi:
   file:
-    path: D:\workspace\javaProject\spring-boot-learning\spring-boot-22-updownload\doc
+    path: D:\doc
     extension: .gif,.jpeg,.png,.jpg,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.pdf,.txt,.rar,.tif
